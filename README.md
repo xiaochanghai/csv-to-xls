@@ -1,7 +1,7 @@
 # csv-to-xls
 C#/.NET Excel CSV to xls
 
-
+```bash
   public static DataTable OpenCSV(string filePath)
  {
      Encoding encoding = Encoding.UTF8; //Encoding.ASCII;//
@@ -136,3 +136,4 @@ public static bool DataTableToExcel(DataTable list)
 string filePath = @"D:\123456.csv";
 DataTable dt = OpenCSV(filePath);
 DataTableToExcel(dt);
+```
